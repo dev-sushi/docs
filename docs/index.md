@@ -1,17 +1,12 @@
-# Welcome to MkDocs
+<p align='center'>
+    <img src="https://user-images.githubusercontent.com/47505116/215187622-ea13d72c-178d-48bb-aba4-1398abf3347d.png" alt="Sushi logo">
+</p>
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+-------------------------
 
-## Commands
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Sushi is a library that allows you to run functions from other languages without needing to translate the code.
 
-## Project layout
+## How it works
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Sushi compiles or interprets the code to create a runnable file which then can be executed, displaying the output in the terminal. Removing the translation step allows for code to run at its native language speed.

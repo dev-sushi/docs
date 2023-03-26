@@ -1,0 +1,3 @@
+If anything goes wrong. You can use the verbose mode to debug what happened. To get started, change `verbose` option inside `launch` section in the configuration to `yes` and restart the app. It will show all things that sushi currently does (like parsing functions).
+
+It's also recommended to check [issues](https://github.com/dev-sushi/sushi/issues) to find a fix for that. If there isn't any issue related to your bug, create a new issue!
