@@ -1,7 +1,10 @@
-site_name: My Docs
+site_name: sushipy
 
 theme:
     name: material
+    palette:
+        primary: deep orange
+        scheme: slate
 
 nav:
     - index.md
