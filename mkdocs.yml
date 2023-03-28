@@ -1,13 +1,16 @@
-site_name: sushipy
+site_name: sushi
 
 theme:
     name: material
     custom_dir: docs/custom_theme
     palette:
-        primary: deep orange
+        primary: white
     features:
         - navigation.tabs
         - navigation.sidebar
+    logo: assets/logo.png
+    favicon: images/favicon.ico
+
 plugins:
     - search
     - autolinks

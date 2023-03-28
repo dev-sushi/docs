@@ -12,7 +12,7 @@
                 code. <br /> And it's fast!</p>
             
             <div id="text-wrapper">  
-                <button>Get started</button>
+                <button onclick="window.location.href='main/'">Get started</button>
             </div>
         </div>
         
@@ -80,6 +80,11 @@
             display: inline-block;
 
             margin-top: 15px;
+        }
+
+        button:hover {
+            filter: brightness(70%);
+            transition: filter 1s;
         }
 
         #text-wrapper {
