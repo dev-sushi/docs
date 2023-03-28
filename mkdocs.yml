@@ -2,12 +2,20 @@ site_name: sushipy
 
 theme:
     name: material
+    custom_dir: docs/custom_theme
     palette:
         primary: deep orange
-        scheme: slate
+    features:
+        - navigation.tabs
+        - navigation.sidebar
+plugins:
+    - search
+    - autolinks
 
 nav:
-    - index.md
-    - getting-started.md
-    - performance.md
-    - debugging.md
+    - Home: index.md
+    - Documentation:
+          - Welcome: main.md
+          - Getting started: getting-started.md
+          - Performance: performance.md
+          - Debugging: debugging.md
