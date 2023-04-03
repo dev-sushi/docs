@@ -22,6 +22,7 @@ Here's an example sushi.conf file for C/C++:
 [main]
 lang = h
 lib_path = lib/main.h
+safe_mode = yes # if set to yes, sushi will alert about scripts that it will run
 
 [launch]
 exec_command = gcc -o lib/out [file-name]
@@ -34,7 +35,7 @@ extension = c
 [index]
 function_pattern = ^[^\n()]+\s+(?!if|for)\b\w+\s*\([^()]*\)\s*$
 ```
-This configuration file defines the language, library path, compilation command, import syntax, temporary file settings, and function pattern for your foreign language code.
+This configuration file defines the language, library path, compilation command, import syntax, temporary file settings, safe mode, and function pattern for your foreign language code.
 
 `[main]`: This section specifies the language of your source code (lang) and the path to the header file containing your foreign language functions (lib_path).
 
