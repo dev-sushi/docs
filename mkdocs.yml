@@ -20,6 +20,10 @@ nav:
     - Documentation:
           - Welcome: main.md
           - Getting started: getting-started.md
+          - Configuration:
+                - Basic: configuration/basic.md
+                - Advanced: configuration/advanced.md
+
           - Performance: performance.md
           - Debugging: debugging.md
 
