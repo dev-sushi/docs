@@ -19,7 +19,8 @@ nav:
     - Home: index.md
     - Documentation:
           - Welcome: main.md
-          - Getting started: getting-started.md
+          - Getting started:
+                - Installing: getting-started.md
           - Configuration:
                 - Basic: configuration/basic.md
                 - Advanced: configuration/advanced.md
@@ -27,6 +28,10 @@ nav:
           - Performance: performance.md
           - Debugging: debugging.md
 
+          - Learn:
+                - How sushi works - detailed: learn/how-sushi-works.md
+                - What is one time compile: learn/what-is-oc.md
+                - Making sushi faster using cache: learn/performance-with-cache.md
 markdown_extensions:
     - pymdownx.highlight:
           anchor_linenums: true
