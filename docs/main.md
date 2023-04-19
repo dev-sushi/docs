@@ -12,6 +12,8 @@ Sushi compiles or interprets the code to create a runnable file which then can b
 
 ## The idea
 
+Sushi is a FFI that works with _any_ language.
+
 In future, we want sushi to work really **from any language, to any language**. To achieve this, we want to have sushi being executed as a app when using other languages than python. So, for example, if we want to get C++ function in rust, to call the function (inside rust), the output file for sushi would look like this:
 
 ```rust
@@ -29,13 +31,3 @@ fn example() {
 ```
 
 This might require a lot of optimization, configuration etc. But by using some not released yet sushi apps this will be probally easier to do.
-
-## Why sushi?
-
-Sushi might be the best FFI to choose, because of speed. Currently, sushi is using things like:
-
--   one-time-compile
--   cache
--   git tracking
-
-to speed up the launch and compile for function(s). Lots of more are coming in the future.
