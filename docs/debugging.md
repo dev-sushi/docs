@@ -19,9 +19,6 @@ verbose = yes
 [temp_file]
 temp_file = $SUSHI_IMPORT $SUSHI_NEWLINE int main() {$SUSHI_FUNCTION($SUSHI_ARGS)$SUSHI_SEMICOLON}
 extension = c
-
-[index]
-function_pattern = ^[^\n()]+\s+(?!if|for)\b\w+\s*\([^()]*\)\s*$
 ```
 
 In addition to using verbose mode, it's recommended to check the [issues](https://github.com/dev-sushi/sushi/issues) for any existing solutions to your problem. If you don't find an issue related to your bug, feel free to create a new issue and provide as much information as possible to help diagnose and fix the problem.
