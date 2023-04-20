@@ -31,7 +31,6 @@ nav:
           - Learn:
                 - How sushi works - detailed: learn/how-sushi-works.md
                 - What is one time compile: learn/what-is-oc.md
-                - Making sushi faster using cache: learn/performance-with-cache.md
 markdown_extensions:
     - pymdownx.highlight:
           anchor_linenums: true
