@@ -18,7 +18,7 @@ plugins:
 nav:
     - Home: index.md
     - Documentation:
-          - Welcome: main.md
+          - Introduction: main.md
           - Getting started:
                 - Installing: getting-started.md
           - Configuration:
