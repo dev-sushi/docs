@@ -1,6 +1,6 @@
 ## main
 
-In this section, we can configure the basics of sushi. This includes what language your library was written in, your library path etc.
+In this section, we can configure the basics of lingfo. This includes what language your library was written in, your library path etc.
 
 Starting with: `lang`, you need to specify in what language your library was written.
 
@@ -10,11 +10,11 @@ Starting with: `lang`, you need to specify in what language your library was wri
 
 Next, we have `lib_path`. This is the path for your library.
 
-Lastly, there is `safe_mode`. Its recommended to keep this on, because when it is turned off, Sushi won't show which scripts it will run (if, for example, extending someones config)
+Lastly, there is `safe_mode`. Its recommended to keep this on, because when it is turned off, Lingfo won't show which scripts it will run (if, for example, extending someones config)
 
 ## launch
 
-Launch is another important section in configuration. It provides sushi with data on how to launch your code. Let's start with `exec_command`:
+Launch is another important section in configuration. It provides lingfo with data on how to launch your code. Let's start with `exec_command`:
 
 This specifies what command to run when executing your code.
 For this example, we will use C++:
@@ -23,9 +23,9 @@ For this example, we will use C++:
 exec_command = gcc -o lib/out [file-name]
 ```
 
--   [file-name] is automatically replaced by sushi with file path that user wants to execute, for example, if we want to execute file: `foo.hpp` from path: `lib/foo.hpp`, [file-name] will be replaced with this: `lib/foo.hpp`
+-   [file-name] is automatically replaced by lingfo with file path that user wants to execute, for example, if we want to execute file: `foo.hpp` from path: `lib/foo.hpp`, [file-name] will be replaced with this: `lib/foo.hpp`
 
-Now, there is `import_syntax`. As the name says, it's just import template that sushi will use to import function from other language. For example, once again if we want to use function from `lib/foo.hpp` the import_syntax would be (already replaced by sushi) this:
+Now, there is `import_syntax`. As the name says, it's just import template that lingfo will use to import function from other language. For example, once again if we want to use function from `lib/foo.hpp` the import_syntax would be (already replaced by lingfo) this:
 
 ```cpp
 #include <foo.hpp>
@@ -33,12 +33,12 @@ Now, there is `import_syntax`. As the name says, it's just import template that 
 
 ## temp_file
 
-Temp file section is used to tell sushi how to manage temp file that is required to launch. Temp file for sushi is a way to execute function from e.g C++ to python by compiling file that imported selected function.
+Temp file section is used to tell lingfo how to manage temp file that is required to launch. Temp file for lingfo is a way to execute function from e.g C++ to python by compiling file that imported selected function.
 
 So, for example, if you want to execute: `hello()` in C++, the temp file would look like this:
 
 ```cpp
-#include "sushi.hpp"
+#include "lingfo.hpp"
 
 int main() {
     hello()

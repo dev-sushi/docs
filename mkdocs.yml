@@ -1,4 +1,4 @@
-site_name: sushi
+site_name: lingfo
 
 theme:
     name: material
@@ -29,7 +29,7 @@ nav:
           - Debugging: debugging.md
 
           - Learn:
-                - How sushi works - detailed: learn/how-sushi-works.md
+                - How lingfo works - detailed: learn/how-lingfo-works.md
                 - What is one time compile: learn/what-is-oc.md
 markdown_extensions:
     - pymdownx.highlight:

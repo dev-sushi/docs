@@ -1,6 +1,6 @@
 ## Cache
 
-To make sure that we don't have to repeat the same things even if there weren't any changes, sushi uses cache. Inside cache it saves all things like last executed code or indexed functions.
+To make sure that we don't have to repeat the same things even if there weren't any changes, lingfo uses cache. Inside cache it saves all things like last executed code or indexed functions.
 
 ## One time compile
 
@@ -28,4 +28,4 @@ if (argv[$SUSHI_ARG_NUM] == "$SUSHI_UUID") {$SUSHI_CODE()$SUSHI_SEMICOLON} $SUSH
 -   `$SUSHI_UUID` = uuid for functions
 -   `$SUSHI_CODE` = function that will be executed
 -   `$SUSHI_SEMICOLON` = ;
--   `$SUSHI_ELSE_START` = tells sushi that here starts else statement and if statement ends
+-   `$SUSHI_ELSE_START` = tells lingfo that here starts else statement and if statement ends

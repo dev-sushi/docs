@@ -1,10 +1,10 @@
 # Debugging
 
-If you encounter any issues while using Sushi, you can enable verbose mode to output extra debugging messages, which can be helpful in identifying and resolving problems.
+If you encounter any issues while using Lingfo, you can enable verbose mode to output extra debugging messages, which can be helpful in identifying and resolving problems.
 
-To enable verbose mode, update your `sushi.conf` configuration file by changing the verbose option inside the `[launch]` section to "yes" and restart your application. With verbose mode enabled, Sushi will display detailed information about its internal processes, such as function parsing.
+To enable verbose mode, update your `lingfo.conf` configuration file by changing the verbose option inside the `[launch]` section to "yes" and restart your application. With verbose mode enabled, Lingfo will display detailed information about its internal processes, such as function parsing.
 
-Example of updated `sushi.conf` with verbose mode enabled:
+Example of updated `lingfo.conf` with verbose mode enabled:
 
 ```ini
 [main]
@@ -21,4 +21,4 @@ temp_file = $SUSHI_IMPORT $SUSHI_NEWLINE int main() {$SUSHI_FUNCTION($SUSHI_ARGS
 extension = c
 ```
 
-In addition to using verbose mode, it's recommended to check the [issues](https://github.com/dev-sushi/sushi/issues) for any existing solutions to your problem. If you don't find an issue related to your bug, feel free to create a new issue and provide as much information as possible to help diagnose and fix the problem.
+In addition to using verbose mode, it's recommended to check the [issues](https://github.com/dev-lingfo/lingfo/issues) for any existing solutions to your problem. If you don't find an issue related to your bug, feel free to create a new issue and provide as much information as possible to help diagnose and fix the problem.
