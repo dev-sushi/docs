@@ -1,5 +1,3 @@
-**Warning: this page includes things about how to setup configuration which can change [in any time](https://github.com/dev-lingfo/lingfo/issues/22).**
-
 Lingfo is a library that allows you to use functions from any language, in any language (tl;dr it's foreign function interface). The goal is to eliminate wasted time when searching for new libraries when migrating to new language. Currently, it only supports language to Python but it can change in any time.
 
 # Getting Started
@@ -8,11 +6,11 @@ Lingfo is a library that allows you to use functions from any language, in any l
 
 To get started with Lingfo, you need to have the following software installed on your system:
 
--   Python 3.9 or newer
+- Python 3.9 or newer
 
 To install the Lingfo library, you can use pip:
 
-`pip install lingfopy`
+`pip install lingfo`
 
 ## Basic Setup and Configuration
 

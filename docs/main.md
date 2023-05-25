@@ -1,5 +1,5 @@
 <p align='center'>
-    <img src="https://user-images.githubusercontent.com/47505116/215187622-ea13d72c-178d-48bb-aba4-1398abf3347d.png" alt="Lingfo logo">
+    <img src="https://user-images.githubusercontent.com/47505116/237992533-a31a4afb-953f-466b-b35e-f429ba24349e.png" alt="Lingfo logo">
 </p>
 
 ---
