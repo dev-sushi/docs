@@ -1,44 +1,44 @@
 site_name: lingfo
 
 theme:
-    name: material
-    custom_dir: docs/custom_theme
-    palette:
-        primary: white
-    features:
-        - navigation.tabs
-        - navigation.sidebar
-    logo: assets/logo.png
-    favicon: images/favicon.ico
+  name: material
+  custom_dir: docs/custom_theme
+  palette:
+    primary: white
+  features:
+    - navigation.tabs
+    - navigation.sidebar
+  logo: assets/logo.png
+  favicon: images/favicon.ico
 
 plugins:
-    - search
-    - autolinks
+  - search
+  - autolinks
 
 nav:
-    - Home: index.md
-    - Documentation:
-          - Introduction: main.md
-          - Getting started:
-                - Installing: getting-started.md
-          - Configuration:
-                - Basic: configuration/basic.md
-                - Advanced: configuration/advanced.md
+  - Home: index.md
+  - Documentation:
+      - Introduction: main.md
+      - Getting started:
+          - Installing: getting-started.md
+      - Configuration:
+          - Basic: configuration/basic.md
+          - Advanced: configuration/advanced.md
 
-          - Performance: performance.md
-          - Debugging: debugging.md
+      - Performance: performance.md
+      - Debugging: debugging.md
 
-          - Learn:
-                - How lingfo works - detailed: learn/how-lingfo-works.md
-                - What is one time compile: learn/what-is-oc.md
+      - Learn:
+          - How lingfo works - detailed: learn/how-lingfo-works.md
+          - What is one time compile: learn/what-is-oc.md
 markdown_extensions:
-    - pymdownx.highlight:
-          anchor_linenums: true
-          line_spans: __span
-          pygments_lang_class: true
-    - pymdownx.inlinehilite
-    - pymdownx.snippets
-    - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
 
-    - admonition
-    - pymdownx.details
+  - admonition
+  - pymdownx.details
