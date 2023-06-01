@@ -25,6 +25,8 @@ nav:
       - Configuration:
           - Basic: configuration/basic.md
           - Advanced: configuration/advanced.md
+          - Creating templates: configuration/creating-templates.md
+          - Premade configurations: configuration/premade-configurations.md
 
       - Performance: performance.md
       - Debugging: debugging.md
