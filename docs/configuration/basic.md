@@ -23,7 +23,7 @@ For this example, we will use C++:
 exec_command = gcc -o lib/out [file-name]
 ```
 
--   [file-name] is automatically replaced by lingfo with file path that user wants to execute, for example, if we want to execute file: `foo.hpp` from path: `lib/foo.hpp`, [file-name] will be replaced with this: `lib/foo.hpp`
+- [file-name] is automatically replaced by lingfo with file path that user wants to execute, for example, if we want to execute file: `foo.hpp` from path: `lib/foo.hpp`, [file-name] will be replaced with this: `lib/foo.hpp`
 
 Now, there is `import_syntax`. As the name says, it's just import template that lingfo will use to import function from other language. For example, once again if we want to use function from `lib/foo.hpp` the import_syntax would be (already replaced by lingfo) this:
 
@@ -48,17 +48,17 @@ int main() {
 After compile the file is automatically deleted. First is: `temp_file`. This sets sturcture for our temp file. Example:
 
 ```ini
-temp_file = $SUSHI_IMPORT $SUSHI_NEWLINE int main() {$SUSHI_FUNCTION($SUSHI_ARGS)$SUSHI_SEMICOLON}
+temp_file = $LINGFO_IMPORT $LINGFO_NEWLINE int main() {$LINGFO_FUNCTION($LINGFO_ARGS)$LINGFO_SEMICOLON}
 ```
 
-Lets start with `$SUSHI_IMPORT`. This will be replaced with the import for selected library.
-`$SUSHI_NEWLINE` is just (as the name says) new line (\n)
+Lets start with `$LINGFO_IMPORT`. This will be replaced with the import for selected library.
+`$LINGFO_NEWLINE` is just (as the name says) new line (\n)
 
-`$SUSHI_FUNCTION` is replaced with function to execute.
+`$LINGFO_FUNCTION` is replaced with function to execute.
 
-`$SUSHI_ARGS` is replaced with arguments to use. If none were passed, this will be empty.
+`$LINGFO_ARGS` is replaced with arguments to use. If none were passed, this will be empty.
 
-`$SUSHI_SEMICOLON` is just a semicolon.
+`$LINGFO_SEMICOLON` is just a semicolon.
 
 As we saw, there were 2 things that usually shouldnt be here. New line and semicolon. It's because in `.ini` files its new line or comment which isnt parsed by `configparser`.
 

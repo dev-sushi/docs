@@ -21,6 +21,7 @@ nav:
       - Introduction: main.md
       - Getting started:
           - Installing: getting-started.md
+          - Our first application: first-app.md
       - Configuration:
           - Basic: configuration/basic.md
           - Advanced: configuration/advanced.md

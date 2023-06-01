@@ -21,11 +21,11 @@ To use it, just add to configuration for `launch` section `one_compile = yes` an
 Example would look like this:
 
 ```cpp
-if (argv[$SUSHI_ARG_NUM] == "$SUSHI_UUID") {$SUSHI_CODE()$SUSHI_SEMICOLON} $SUSHI_ELSE_START else if (argv[$SUSHI_ARG_NUM] == "$SUSHI_UUID") {$SUSHI_CODE()$SUSHI_SEMICOLON}
+if (argv[$LINGFO_ARG_NUM] == "$LINGFO_UUID") {$LINGFO_CODE()$LINGFO_SEMICOLON} $LINGFO_ELSE_START else if (argv[$LINGFO_ARG_NUM] == "$LINGFO_UUID") {$LINGFO_CODE()$LINGFO_SEMICOLON}
 ```
 
--   `$SUSHI_ARG_NUM` = what argument number to call (e.g argv[0], argv[1])
--   `$SUSHI_UUID` = uuid for functions
--   `$SUSHI_CODE` = function that will be executed
--   `$SUSHI_SEMICOLON` = ;
--   `$SUSHI_ELSE_START` = tells lingfo that here starts else statement and if statement ends
+- `$LINGFO_ARG_NUM` = what argument number to call (e.g argv[0], argv[1])
+- `$LINGFO_UUID` = uuid for functions
+- `$LINGFO_CODE` = function that will be executed
+- `$LINGFO_SEMICOLON` = ;
+- `$LINGFO_ELSE_START` = tells lingfo that here starts else statement and if statement ends
