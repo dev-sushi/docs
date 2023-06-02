@@ -1,100 +1,94 @@
-{% extends "main.html" %}
+{% extends "main.html" %} {% block tabs %} {{ super() }}
+<div id="main-content">
+  <div id="text-content">
+    <h1>Foreign function interface <br />for any language.</h1>
 
-{% block tabs %}
-    {{ super() }}
-    <div id="main-content">
-        <div id="text-content">
-            <h1>Foreign function interface
-                <br />for any language.
-            </h1>
+    <p>
+      Lingfo is a library that allows you to run functions <br />
+      from other languages without needing to translate the code. <br />
+    </p>
 
-            <p>Lingfo is a library that allows you to run functions <br /> from other languages without needing to translate the
-                code. <br /> And it's fast!</p>
-            
-            <div id="text-wrapper">  
-                <button onclick="window.location.href='main/'">Get started</button>
-            </div>
-        </div>
-        
-        <div id="new-content"></div>
+    <div id="text-wrapper">
+      <button onclick="window.location.href='main/'">Get started</button>
     </div>
+  </div>
 
-    <div id="example-content">
-        <img src="images/example.png" />
-    </div>
+  <div id="new-content"></div>
+</div>
 
-    <style>
-        #main-content {
-            margin: 0 auto;
-            margin-top: 50px;
-        }
+<div id="example-content">
+  <img src="images/example.png" />
+</div>
 
-        #example-content img {
-            width: 600px;
-            height: auto;
-        }
+<style>
+  #main-content {
+    margin: 0 auto;
+    margin-top: 50px;
+  }
 
-        #example-content {
-            left: 55%;
-            top: -250px;
-            position: relative;
-        }
+  #example-content img {
+    width: 600px;
+    height: auto;
+  }
 
-        #text-content {
-            position: relative;
-            left: -200px;
-        }
+  #example-content {
+    left: 55%;
+    top: -250px;
+    position: relative;
+  }
 
-        #new-content {
-            width: 100%;
-            height: 2px;
+  #text-content {
+    position: relative;
+    left: -200px;
+  }
 
-            background-color: black;
-            position: absolute;
+  #new-content {
+    width: 100%;
+    height: 2px;
 
-            left: 0;
-            margin-top: 250px;
+    background-color: black;
+    position: absolute;
 
-            opacity: 50%;
-        }
+    left: 0;
+    margin-top: 250px;
 
-        h1 {
-            font-size: 3em;
-        }
+    opacity: 50%;
+  }
 
-        h1, p {
-            text-align: center;
-        }
+  h1 {
+    font-size: 3em;
+  }
 
-        p {
-            font-size: 1.5em;
-        }
+  h1,
+  p {
+    text-align: center;
+  }
 
-        button {
-            background-color: gray;
-            font-size: 1.5em;
-            height: 50px;
-            width: 150px;
+  p {
+    font-size: 1.5em;
+  }
 
-            border-radius: 5px;
-            display: inline-block;
+  button {
+    background-color: #212121;
+    color: white;
+    font-size: 1.5em;
+    height: 50px;
+    width: 150px;
 
-            margin-top: 15px;
-        }
+    border-radius: 5px;
+    display: inline-block;
 
-        button:hover {
-            filter: brightness(70%);
-            transition: filter 1s;
-        }
+    margin-top: 15px;
+  }
 
-        #text-wrapper {
-            text-align: center;
-        }
-    </style>
-{% endblock %}
+  button:hover {
+    filter: brightness(70%);
+    transition: filter 1s;
+  }
 
-{% block content %}{% endblock %}
-
-{% block footer %}
-{{ super() }}
-{% endblock %}
+  #text-wrapper {
+    text-align: center;
+  }
+</style>
+{% endblock %} {% block content %}{% endblock %} {% block footer %} {{ super()
+}} {% endblock %}
